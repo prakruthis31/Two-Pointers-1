@@ -3,6 +3,8 @@
 // Did this code successfully run on Leetcode : yes
 // Any problem you faced while coding this :
 
+/* use mid,left and right pointers to represent each color, use mid as index and traverse the input using mid pointer
+ and swapping the current element with either left or right depending on the color encountered */
 public class SortColor {
     public void sortColors(int[] nums) {
         if(nums==null || nums.length ==0) return;
